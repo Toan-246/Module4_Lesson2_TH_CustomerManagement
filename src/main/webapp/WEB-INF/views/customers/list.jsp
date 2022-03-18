@@ -8,6 +8,7 @@
         border: 1px dotted #555;
     }
 </style>
+<%--<a href="/customers/${c.id}">${c.name}</a>--%>
 There are ${requestScope.customers.size()} customer(s) in list.
 <table>
     <caption>Customers List</caption>
